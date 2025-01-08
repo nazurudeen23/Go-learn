@@ -41,4 +41,13 @@ func main(){
 
 	fmt.Println("Rectangle area: ", calculateArea(rect))
 	fmt.Println("Circle area: ", calculateArea(circle))
+
+	//another scenario
+	mystryBox := interface{}(10)
+	describeValue(mystryBox)
+
+}
+
+func describeValue(t interface{}){
+	fmt.Printf("Type: %T, Value %v\n", t,t)
 }
