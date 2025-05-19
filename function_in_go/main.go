@@ -26,6 +26,7 @@ func divide(a int, b int) float64 {
     return float64(a) / float64(b)
 }
 
+
 func main() {
     // Calling functions and displaying results
     sum := add(5, 10)
